@@ -8,7 +8,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
-    <script src="https://unpkg.com/typewriter-effect@2.3.1/dist/core.js"></script>
     <style>
     *{
     margin: 0;
@@ -75,7 +74,7 @@
             <div id="dear"></div>
             <div id="happy-birthday"></div>
             <div id="message-1" class="message"></div>
-            <div id="quote-1" class="quote"></div>
+            <div id="quote-1" class="quote">You are a great friend</div>
             <div id="message-2" class="message"></div>
             <div id="signature"></div>
         </div>
@@ -122,37 +121,6 @@ document.getElementById('message-1').innerHTML = message_1;
 document.getElementById('message-2').innerHTML = message_2;
 document.getElementById('quote-1').innerHTML = quote_1;
 document.getElementById('signature').innerHTML = signature;
-
-
-const app = document.getElementById('quote-1');
-
-const typewriter = new Typewriter(app, {
-    loop: true
-});
-
-const tw_message_1 = 'You are great friend';
-const tw_message_2 = 'And always there for us';
-const tw_message_3 = 'Your lovely to be around';
-const tw_message_4 = 'You are always nice to us';
-
-typewriter.typeString("")
-    .typeString(tw_message_1)
-    .pauseFor(500)
-    .deleteAll()
-    .typeString(tw_message_2)
-    .pauseFor(500)
-    .deleteAll()
-    .typeString(tw_message_3)
-    .pauseFor(500)
-    .deleteAll()
-    .typeString(tw_message_4)
-    .pauseFor(500)
-    .deleteAll()
-    .start();
-
     
-    //---------------------------------------------------
-
-    
-    </script>
+</script>
 </html>
