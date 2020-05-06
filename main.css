@@ -4,7 +4,7 @@
     text-align: center;
 }
 #happy-birthday,
-.quote{
+.quote span{
     color: #af970d;
 }
 
@@ -40,7 +40,7 @@
     padding: 40px 20px;
 }
 
-.quote{
+.quote span{
     font-family: 'Caveat', cursive; 
     font-size: 2em;
     text-align: center; 
