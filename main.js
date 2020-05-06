@@ -6,7 +6,7 @@ const message_1 = `Lorem ipsum dolor sit amet consectetur adipisicing elit. Culp
 
 const message_2 = message_1;
 
-const quote_1 = "";
+const complement = "";
 
 const signature = `<img src="https://fontmeme.com/permalink/200506/34ad4aedc64b0d1020d6d87ebf06d184.png" alt="signature-fonts" border="0">`;
 
@@ -36,11 +36,11 @@ document.getElementById('dear').innerHTML = `Dear ${name}`;
 document.getElementById('happy-birthday').innerHTML = `Happy ${age_with_suffix} Birthday`;
 document.getElementById('message-1').innerHTML = message_1;
 document.getElementById('message-2').innerHTML = message_2;
-document.getElementById('quote-1').innerHTML = quote_1;
+document.getElementById('complement').innerHTML = complement;
 document.getElementById('signature').innerHTML = signature;
 
 
-const app = document.getElementById('quote-1');
+const app = document.getElementById('complement');
 
 const typewriter = new Typewriter(app, {
     loop: true
